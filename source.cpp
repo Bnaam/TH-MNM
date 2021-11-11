@@ -11,8 +11,13 @@ int main()
 	cin >> a;
 	cout << "Nhap so nguyen 2: ";
 	cin >> b;
-	cout << "Chon phep toan (+,-) ";
-	cin >> phepToan;
+	cout << "Tong :";
+	cin >> tong(a,b);
 	system("pause");
 	return 0;
+}
+
+int tong(int a, int b)
+{
+	return a + b;
 }
