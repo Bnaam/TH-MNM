@@ -14,7 +14,15 @@ int tich(int a,int b)
 {
 	return a * b;
 }
+void chanle(int a)
+{
+	if(a%2 ==0)
+cout << "Chan";
 
+	else
+
+cout << "Le";
+}
 
 
 int main()
