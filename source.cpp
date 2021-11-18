@@ -8,6 +8,14 @@ int tich(int a, int b)
 
 }
 
+void chanle(int a)
+{
+	if(a%2 == 0)
+		cout << " Chan ";
+	else
+		cout << " Le ";
+}
+
 int main()
 {
 	int a, b;
@@ -22,6 +30,9 @@ int main()
 
 	cout << "Tong :";
 	cin >> tong(a,b);
+
+	cout << "A la :";
+	cin >> chanle(a);
 
 	system("pause");
 	return 0;
